@@ -48,12 +48,12 @@ h4,
 h5,
 h6 {
     color: #333;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-weight: 700;
 }
 a {
     color: #00b2ca;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     text-decoration: none;
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
@@ -1296,7 +1296,7 @@ video { min-width: 100% }
     -webkit-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
     color: #333;
-    font-family: montserrat, sans-serif;
+    font-family: Josefin Sans, sans-serif;
     letter-spacing: 2px;
 }
 @media only screen and (max-width: 480px) {
@@ -1840,7 +1840,7 @@ ul.testimonial-socials li a {
 }
 ul.pricing-list li {
     padding-bottom: 28px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 15px;
 }
 a.price-btn {
@@ -2185,13 +2185,16 @@ a.price-btn:focus {
 .page-banner-area .page-header {
 	margin: 315px 0 20px;
 	border: none;
+  font-family: 'Berkshire Swash', cursive;
 }
 .page-banner-area .page-header h1 {
 	margin: 0 0 30px;
-	color: #fff;
+	color: black;
 	text-transform: uppercase;
 	font-weight: 400;
 	letter-spacing: 3px;
+  font-family: 'Berkshire Swash', cursive;
+  text-align: center;
 }
 .page-banner-area .page-sub-tittle {
 	color: #fff;
@@ -2313,7 +2316,7 @@ a.price-btn:focus {
 	color: #333;
 }
 .blog-single-page-atr span {
-	font-family: "Montserrat", sans-serif;
+	font-family: "Josefin Sans", sans-serif;
 	margin: 30px 20px 30px 0;
 	display: inline-block;
 }
@@ -2459,7 +2462,7 @@ a.price-btn:focus {
 .btn-contact-bg {
     background: transparent;
     border-radius: 0;
-    font-family: montserrat, sans-serif;
+    font-family: Josefin Sans, sans-serif;
     font-size: 14px;
     padding: 12px 38px;
     text-transform: uppercase;
@@ -2544,11 +2547,16 @@ a.price-btn:focus {
 .map-container-wrap {
     position: relative;
 }
+
+#headerCol {
+
+}
 .map-container-add {
     background: #fff;
     position: absolute;
     bottom: 0;
 }
+
 .map-single-add {
     padding: 20px;
 }
@@ -2563,7 +2571,7 @@ a.price-btn:focus {
 }
 .map-single-add p {
     color: #666;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     letter-spacing: 1px;
 }
 /*
@@ -2632,7 +2640,7 @@ a.price-btn:focus {
 }
 .footer-copyright p {
     margin-bottom: 10px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     letter-spacing: 2px;
 }
 .footer-copyright p i {
