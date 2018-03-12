@@ -28,6 +28,17 @@ Version      : 1.0
 * 01.GENERAL STYLE
 * ----------------------------------------------------------------------------------------
 */
+/*  */
+#selfie {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  bottom: 40px;
+}
+
+.headerLink {
+  font-size: 60px;
+}
 
 body {
     font-family: 'Cousine', sans-serif;
@@ -76,6 +87,8 @@ li {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
 fieldset {
     border: 0 none;
@@ -410,7 +423,7 @@ fieldset {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 11px;
+    font-size: 20px;
     padding: 10px 15px;
 }
 .main-menu li a:hover {
@@ -2169,7 +2182,7 @@ a.price-btn:focus {
     bottom: 40px;
 }
 .page-banner-area .slider-down-btn img {
-    font-size: 35px;
+
     color: #ffffff;
     display: inline-block;
     -webkit-animation-name: slider-down-btn;
@@ -2185,7 +2198,7 @@ a.price-btn:focus {
 .page-banner-area .page-header {
 	margin: 315px 0 20px;
 	border: none;
-  font-family: 'Berkshire Swash', cursive;
+  /* font-family: 'Berkshire Swash', cursive; */
 }
 .page-banner-area .page-header h1 {
 	margin: 0 0 30px;
@@ -2194,6 +2207,8 @@ a.price-btn:focus {
 	font-weight: 400;
 	letter-spacing: 3px;
   text-align: center;
+  padding-right: 6%;
+  padding-top: 30px;
 }
 .page-banner-area .page-sub-tittle {
 	color: #fff;
@@ -2617,9 +2632,8 @@ a.price-btn:focus {
     background: #40BFF5;
     border: 1px solid #40BFF5;
 }
-.s-google i:hover {
-    background: #EB5E4C;
-    border: 1px solid #EB5E4C;
+.phone {
+  color: #93989B;
 }
 .s-linkedin i:hover {
     background: #238CC8;
