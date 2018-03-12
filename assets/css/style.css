@@ -209,10 +209,10 @@ fieldset {
     font-weight: 700;
 }
 .section-title div.line {
-    background: #00b2ca;
-    height: 1px;
-    width: 55px;
-    margin: 20px auto;
+    background: #660033;
+    height: 3px;
+    width: 300px;
+    margin: 5px auto;
 }
 .section-title h3.section-title-white,
 .section-title p.section-dec-white {
@@ -423,11 +423,11 @@ fieldset {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 15px;
     padding: 10px 15px;
 }
 .main-menu li a:hover {
-    color: #00b2ca!important
+    color: black!important
 }
 @media only screen and (max-width: 768px) {
     .navbar-default .navbar-nav > li > a {
@@ -802,6 +802,7 @@ fieldset {
 
 .single-blog-ho {
     position: relative;
+    margin-bottom: 120px;
 }
 .single-blog-ho-img {
     overflow: hidden;
@@ -895,11 +896,13 @@ fieldset {
 }
 .single-blog-ho-title {
     padding: 5px;
-    background: #3F3F3F;
+    background: #660033;
+    border: 1px solid #660033;
+    border-radius: 50px;
     text-align: center;
     text-transform: uppercase;
     position: relative;
-    top: -36px;
+    top: 30px;
     margin: 0 25px;
     z-index: 2;
     -webkit-transition: 0.2s linear;
@@ -911,6 +914,7 @@ fieldset {
 }
 .blog-red-btn {
     border: 2px solid rgba(255, 255, 255, 0.75);
+    border-radius: 50px;
     background: transparent;
     padding: 3px 20px;
     display: inline-block;
@@ -1011,13 +1015,18 @@ fieldset {
 	text-transform: uppercase;
 	font-weight: 400;
 	letter-spacing: 3px;
-  text-align: center;
-  padding-right: 6%;
-  padding-bottom: 0px;
-  font-size: 50px;
-  position: absolute;
-  bottom: -115px;
-  left: 30%;
+      text-align: center;
+    position: relative;
+    padding-right: 6%;
+    bottom: 50px;
+    font-size: 50px;
+
+}
+.headerNavItem {
+
+}
+#aboutNav {
+  margin-right: 90%;
 }
 
 .page-banner-area .page-breadcrumb {
@@ -1261,7 +1270,7 @@ fieldset {
 .footer-top {
     background-color: white-space;
     padding: 100px 0;
-    border-top: 2px solid black;
+    border-top: 5px solid #660033;
 
 }
 .footer-social ul li {
@@ -1282,27 +1291,23 @@ fieldset {
         margin-bottom: 15px;
     padding-top: 7px;
 }
+
+#footerIconHover a:hover {
+  color: #660033;
+}
 .footer-logo {
     margin-bottom: 70px;
 }
-.s-facebook i:hover {
-    background: #5D82D1;
-    border: 1px solid #5D82D1;
-}
-.s-twitter i:hover {
-    background: #40BFF5;
-    border: 1px solid #40BFF5;
-}
-#phone {
-  color: black;
-}
+
 .socialIcon {
   font-size: 30px;
-
 }
-.s-linkedin i:hover {
-    background: #238CC8;
-    border: 1px solid #238CC8;
+.socialIcon a:hover {
+  color:  #660033;
+}
+.s-linkedin a:hover {
+    background: #660033;
+    border: 2px solid #660033;
 }
 .footer-bottom {
     background-color: #1D1D21;
