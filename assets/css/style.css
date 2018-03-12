@@ -59,11 +59,11 @@ h4,
 h5,
 h6 {
     color: #333;
-    font-family: "Josefin Sans", sans-serif;
+    /* font-family: "Josefin Sans", sans-serif; */
     font-weight: 700;
 }
 a {
-    font-family: "Josefin Sans", sans-serif;
+    font-family: 'Cousine', sans-serif; sans-serif;
     text-decoration: none;
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
@@ -71,7 +71,7 @@ a {
 }
 a:focus,
 a:hover {
-    color:#660033;
+    color:#553996;
     text-decoration: none;
 }
 a:focus {
@@ -135,7 +135,7 @@ fieldset {
 /*START SCROLL TO TOP*/
 
 .topcontrol {
-    background: #660033 none repeat scroll 0 0;
+    background: #553996 none repeat scroll 0 0;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
@@ -170,7 +170,7 @@ fieldset {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    border-bottom: solid 5px #660033;
+    border-bottom: solid 5px #553996;
 }
 .no-padding {
     padding: 0
@@ -211,7 +211,7 @@ fieldset {
     font-weight: 700;
 }
 .section-title div.line {
-    background: #660033;
+    background: #553996;
     height: 3px;
     width: 300px;
     margin: 5px auto;
@@ -421,7 +421,7 @@ fieldset {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0
 }
 .navbar-default.main-menu li a {
-    color: #660033;
+    color: #553996;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -450,10 +450,10 @@ fieldset {
     }
 }
 .navbar-default.menu-animation li a {
-    color: #333!important
+    color: black!important
 }
 .navbar-default.menu-animation li a:hover {
-    color: #00b2ca !important
+    color: #553996 !important
 }
 .navbar-default .navbar-toggle {
     background: #fff none repeat scroll 0 0
@@ -463,7 +463,7 @@ fieldset {
     background-color: #fff
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #660033;
+    background-color: #553996;
 }
 /* dropdown menu style */
 .navbar-right .dropdown-menu {
@@ -635,7 +635,7 @@ fieldset {
     -webkit-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
     color: #333;
-    font-family: Josefin Sans, sans-serif;
+    /* font-family: Josefin Sans, sans-serif; */
     letter-spacing: 2px;
 }
 @media only screen and (max-width: 480px) {
@@ -831,7 +831,7 @@ fieldset {
 .single-blog-ho:hover .single-blog-ho-img .entry-action a {
     opacity: 1;
     visibility: visible;
-    background-color: #660033;
+    background-color: #553996;
     transform: scale(1.2);
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
@@ -899,8 +899,8 @@ fieldset {
 }
 .single-blog-ho-title {
     padding: 5px;
-    background: #660033;
-    border: 3px solid #660033;
+    background: #553996;
+    border: 3px solid #553996;
     border-radius: 50px;
     text-align: center;
     text-transform: uppercase;
@@ -975,7 +975,7 @@ fieldset {
 	height: 100vh;
 }
 .page-banner-area:before {
-	background: rgba(0, 0, 0, 0.6);
+	background: rgba(0, 0, 0, 0.3);
 	content: "";
 	height: 100%;
 	left: 0;
@@ -1014,7 +1014,7 @@ fieldset {
 }
 .page-banner-area .page-header h1 {
 	margin: 0 0 30px;
-	color: #660033;
+	color: #553996;
 	text-transform: uppercase;
 	font-weight: 400;
 	letter-spacing: 3px;
@@ -1104,7 +1104,7 @@ fieldset {
 	color: #333;
 }
 .blog-single-page-atr span {
-	font-family: "Josefin Sans", sans-serif;
+	/* font-family: "Josefin Sans", */
 	margin: 30px 20px 30px 0;
 	display: inline-block;
 }
@@ -1146,8 +1146,8 @@ h5 {
 	padding: 8px 30px;
 	margin-bottom: 30px;
 	display: inline-block;
-	background: #660033;
-    border: 3px solid #660033;
+	background: #553996;
+    border: 3px solid #553996;
     border-radius: 50px;
 
 	text-transform: uppercase;
@@ -1161,7 +1161,7 @@ h5 {
 }
 .postorderpre:hover, .postorderpre:focus, .postordernex:hover, .postordernex:focus {
 	background: black;
-	border-color: #660033;
+	border-color: #553996;
 	color: #fff;
 }
 .postorder .postordernex {
@@ -1248,8 +1248,8 @@ h5 {
 .footer-top {
     background-color: white-space;
     padding: 100px 0;
-    border-top: 5px solid #660033;
-    border-bottom: 5px solid #660033;
+    border-top: 5px solid #553996;
+    border-bottom: 5px solid #553996;
 
 }
 .footer-social ul li {
@@ -1272,7 +1272,7 @@ h5 {
 }
 
 #footerIconHover a:hover {
-  color: #660033;
+  color: #553996;
 }
 .footer-logo {
     margin-bottom: 70px;
@@ -1282,7 +1282,7 @@ h5 {
   font-size: 30px;
 }
 .socialIcon a:hover {
-  color:  #660033;
+  color:  #553996;
 }
 
 .footerIconTxt {
@@ -1290,8 +1290,8 @@ h5 {
   color: black
 }
 .s-linkedin a:hover {
-    background: #660033;
-    border: 2px solid #660033;
+    background: #553996;
+    border: 2px solid #553996;
 }
 .footer-bottom {
     background-color: black;
@@ -1301,7 +1301,7 @@ h5 {
 }
 .footer-copyright p {
     margin-bottom: 10px;
-    font-family: "Josefin Sans", sans-serif;
+    /* font-family: "Josefin Sans", sans-serif; */
     letter-spacing: 2px;
 }
 .footer-copyright p i {
