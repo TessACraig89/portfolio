@@ -42,7 +42,7 @@ Version      : 1.0
 
 body {
     font-family: 'Cousine', sans-serif;
-    color: #93989B;
+    color: black;
     line-height: 1.5em;
     overflow-x: hidden;
     margin: auto;
@@ -564,7 +564,8 @@ fieldset {
 }
 .about-cl-info .blockquote {
     border: none;
-    font-size: 14px;
+    font-size: 18px;
+    color: black;
 }
 .about-cl-info .blockquote-footer {
     margin-top: 10px;
@@ -1256,26 +1257,30 @@ fieldset {
 * ----------------------------------------------------------------------------------------
 */
 
-.footer-section {} .footer-top {
+
+.footer-top {
     background-color: white-space;
     padding: 100px 0;
     border-top: 2px solid black;
+
 }
 .footer-social ul li {
     display: inline-block;
 }
 .footer-social ul li a i {
     color: black;
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
     line-height: 40px;
-    border: 1px solid #fff;
+    border: 2px solid black;
     border-radius: 50%;
     margin: 0 4px;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
+        margin-bottom: 15px;
+    padding-top: 7px;
 }
 .footer-logo {
     margin-bottom: 70px;
@@ -1288,24 +1293,21 @@ fieldset {
     background: #40BFF5;
     border: 1px solid #40BFF5;
 }
-.phone {
+#phone {
   color: black;
+}
+.socialIcon {
+  font-size: 30px;
+
 }
 .s-linkedin i:hover {
     background: #238CC8;
     border: 1px solid #238CC8;
 }
-.s-youtube i:hover {
-    background: #CC181E;
-    border: 1px solid #CC181E;
-}
-.s-skype i:hover {
-    background: #00AFF0;
-    border: 1px solid #00AFF0;
-}
 .footer-bottom {
     background-color: #1D1D21;
     padding: 20px 0;
+    color: white;
 }
 .footer-copyright p {
     margin-bottom: 10px;
