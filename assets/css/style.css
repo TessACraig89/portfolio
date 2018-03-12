@@ -824,11 +824,12 @@ fieldset {
     -ms-transform: scale(1.5);
 }
 .single-blog-ho:hover .single-blog-ho-title {
-    background: #00b2ca;
+    background: black;
 }
 .single-blog-ho:hover .single-blog-ho-img .entry-action a {
     opacity: 1;
     visibility: visible;
+    background-color: #660033;
     transform: scale(1.2);
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
@@ -897,7 +898,7 @@ fieldset {
 .single-blog-ho-title {
     padding: 5px;
     background: #660033;
-    border: 1px solid #660033;
+    border: 3px solid #660033;
     border-radius: 50px;
     text-align: center;
     text-transform: uppercase;
