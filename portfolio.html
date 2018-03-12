@@ -41,6 +41,7 @@
             <div class="loadscreen">
                 <div class="loadscreen-in">
                     <h4>Tess Craig</h4>
+                    <i class="fa fa-spinner fa-spin" style="font-size:50px"></i>
                 </div>
             </div>
         </div>
@@ -59,10 +60,10 @@
                     <!-- <a class="navbar-brand" href="index.html"></a> -->
                 </div>
                 <div class="navbar-collapse collapse">
-                    <nav>
+                    <nav class="row">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a class="page-scroll" href="about.html">About</a></li>
-                            <li><a class="page-scroll" href="portfolio.html">Portfolio</a></li>
+                            <li class="col-6"><a class="headerNavItem" id="aboutNav" href="about.html">About</a></li><br></br>
+                            <li class="col-6"><a class="headerNavItem" href="portfolio.html">Portfolio</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -77,29 +78,22 @@
                   <div class="row">
                       <div class="col-md-12 col-sm-12 col-xs-12" id="headerCol">
   						<div class="page-header">
-  							<h1 class="page-tittle">Tess Craig</h1>
+  							<h1 class="page-tittle">Tess<br></br>Craig</h1>
   							<!-- end page tittle -->
   							<!-- end page sub tittle -->
   						</div>
                       </div>
                       <!--- END COL -->
                       <div class="col-md-6 col-sm-6 col-xs-12">
-  						<!-- <div class="page-breadcrumb">
-  							<ol class="breadcrumb">
-  								<li><a href="index.html">Home</a></li>
-  								<li class="active">Blog</li>
-  							</ol>
-  						</div> -->
-  						<!-- end breadcrumb-->
                       </div>
                       <!--- END COL -->
                   </div>
                   <!--- END ROW -->
               </div>
               <!--- END CONTAINER -->
+
           </section>
           <!-- END PAGE BANNER AND BREADCRUMBS  -->
-
 
         <!-- START BLOG LIST  -->
         <section id="blog" class="section-padding">
@@ -200,17 +194,17 @@
                       <div class="footer-social">
                           <ul>
                               <li>
-                                  <a data-toggle="tooltip" data-placement="top" title="Linkedin" class="s-linkedin" href="https://www.linkedin.com/in/tesscraig/"><i class="fa fa-linkedin"></i></a>
+                                  <a data-toggle="tooltip" data-placement="top" title="Linkedin" class="socialIcon" id="footerIconHover" href="https://www.linkedin.com/in/tesscraig/"><i class="fa fa-linkedin"></i></a>
                               </li>
                               <li>
-                                  <a data-toggle="tooltip" data-placement="top" class="s-google" href="#"><i class="fa fa-envelope"></i></a><p>tesscraig.webdev@gmail.com</p></a>
+                                  <a data-toggle="tooltip" data-placement="top" class="socialIcon" href="#"><i class="fa fa-envelope"></i></a><p class="footerIconTxt">tesscraig.webdev@gmail.com</p></a>
                               </li>
                               <li>
-                                  <a data-toggle="tooltip" data-placement="top"  class="phone" href="#"><i class="fa fa-phone"></i></a>
-                                  <p>512-900-0614</p>
+                                  <a data-toggle="tooltip" data-placement="top"  id="phone" class="socialIcon" href="#"><i class="fa fa-phone"></i></a>
+                                  <p class="footerIconTxt">512-900-0614</p>
                               </li>
                               <li>
-                                <a data-toggle="tooltip" data-placement="top" title="Linkedin" class="s-linkedin" href="https://github.com/TessACraig89"><i class="fa fa-github"></i></a>
+                                <a data-toggle="tooltip" data-placement="top" title="Github" class="socialIcon" id="footerIcon2Hover" href="https://github.com/TessACraig89"><i class="fa fa-github"></i></a>
                               </li>
 
                           </ul>

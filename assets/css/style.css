@@ -105,17 +105,18 @@ fieldset {
     right: 0;
     top: 0;
     z-index: 9999;
+    font-size: 50px;
 }
 .loadscreen,
 .loadscreen-in {
-    background-image: url(../img/preloader.gif);
+    /* background-image: url(../img/preloader.png); */
     background-position: center;
     background-repeat: no-repeat;
     height: 200px;
     left: 50%;
     margin: -100px 0 0 -100px;
     position: absolute;
-    top: 50%;
+    top: 30%;
     width: 200px;
 }
 .loadscreen-in {
@@ -134,7 +135,7 @@ fieldset {
 /*START SCROLL TO TOP*/
 
 .topcontrol {
-    background: #00b2ca none repeat scroll 0 0;
+    background: #660033 none repeat scroll 0 0;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
@@ -462,7 +463,7 @@ fieldset {
     background-color: #fff
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #00b2ca;
+    background-color: #660033;
 }
 /* dropdown menu style */
 .navbar-right .dropdown-menu {
@@ -1111,7 +1112,10 @@ fieldset {
   padding-right: 8px;
 }
 h5 {
-  font-size: 18px;
+    font-size: 18px;
+    color: black;
+    border-bottom: black 2px solid;
+    padding-bottom: 5px;
 }
 
 .blog-single-page-details {
