@@ -41,7 +41,7 @@ Version      : 1.0
 }
 
 body {
-    font-family: 'Cousine', sans-serif;
+    font-family: 'Philosopher', sans-serif;
     color: black;
     line-height: 1.5em;
     overflow-x: hidden;
@@ -63,7 +63,7 @@ h6 {
     font-weight: 700;
 }
 a {
-    font-family: 'Cousine', sans-serif; sans-serif;
+    font-family: 'Philosopher', sans-serif; sans-serif;
     text-decoration: none;
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
