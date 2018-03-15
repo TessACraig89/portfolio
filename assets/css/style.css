@@ -40,6 +40,12 @@ Version      : 1.0
   font-size: 60px;
 }
 
+.titleTest {
+  font-size: 60px;
+  font-family: 'Philosopher', sans-serif;
+  color: #553996;
+  margin-bottom: 50px;
+}
 body {
     font-family: 'Philosopher', sans-serif;
     color: black;
@@ -81,6 +87,13 @@ a:focus {
 p {
     line-height: 28px;
     margin-bottom: 0;
+}
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
 ul {
     margin: 0;
@@ -585,6 +598,7 @@ fieldset {
     border: none;
     font-size: 18px;
     color: black;
+    text-align: justify;
 }
 .about-cl-info .blockquote-footer {
     margin-top: 10px;
@@ -660,6 +674,10 @@ fieldset {
         padding: 5px 15px
     }
     ul {
+      display: flex;
+      flex-direction: column;
+    }
+    ol {
       display: flex;
       flex-direction: column;
     }
