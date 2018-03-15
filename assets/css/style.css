@@ -87,8 +87,11 @@ li {
     margin: 0;
     padding: 0;
     list-style: none;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
+}
+ol {
+
 }
 fieldset {
     border: 0 none;
@@ -448,6 +451,9 @@ fieldset {
         color: #fff !important;
         margin-left: 0px;
     }
+    .postordernex {
+
+    }
 }
 .navbar-default.menu-animation li a {
     color: black!important
@@ -641,6 +647,10 @@ fieldset {
 @media only screen and (max-width: 480px) {
     .portfolio-filter-menu ul li {
         padding: 5px 15px
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
     }
 }
 .portfolio-filter-menu ul li:hover {
@@ -1313,6 +1323,7 @@ h5 {
 .footer-copyright p a:hover {
     color: #00b2ca
 }
+
 /*
 * ----------------------------------------------------------------------------------------
 *  15. END FOOTER STYLE
