@@ -89,8 +89,20 @@ ul {
     display: flex;
     justify-content: space-between;
 }
-ol {
+.demoAndGithubBtns {
+  background: #553996;
+    border: 3px solid #553996;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: white;
+    font-weight: 700;
+    margin: 10px;
 
+}
+.demoAndGithubBtns a {
+  color: #fff;
+    padding: 0 6px;
 }
 fieldset {
     border: 0 none;
