@@ -712,7 +712,7 @@ fieldset {
     -ms-backface-visibility: hidden;
     backface-visibility: hidden;
 }
-.work-item .figure .figcaption::before,
+
 .work-item .figure .figcaption::after {
     pointer-events: none;
 }
@@ -1068,7 +1068,7 @@ fieldset {
 
 }
 #aboutNav {
-  margin-right: 90%;
+  /* margin-right: 90%; */
 }
 
 .page-banner-area .page-breadcrumb {
