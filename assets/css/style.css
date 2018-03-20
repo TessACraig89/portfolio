@@ -234,6 +234,7 @@ fieldset {
     padding-bottom: 10px;
     position: relative;
     font-weight: 400;
+    top: 10px;
 }
 .section-title span {
     font-weight: 700;
