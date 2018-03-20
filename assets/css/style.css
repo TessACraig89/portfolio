@@ -470,6 +470,7 @@ fieldset {
     box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1);
     padding: 10px 0;
     width: 100%;
+    border-bottom: solid 5px #44B9F8;
 }
 @media only screen and (max-width: 480px) {
     .main-menu {
