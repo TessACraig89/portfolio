@@ -843,7 +843,9 @@ fieldset {
 *  13. BLOG STYLE
 * ----------------------------------------------------------------------------------------
 */
-
+#blog {
+  padding-top: 100px;
+}
 .single-blog-ho {
     position: relative;
     margin-bottom: 120px;
